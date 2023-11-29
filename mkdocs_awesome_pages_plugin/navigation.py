@@ -242,24 +242,6 @@ class AwesomeNavigation:
 
     @staticmethod
     def _collapse(section: Section, collapse: Optional[bool], collapse_recursive: bool, force_collapse: bool=False) -> List[NavigationItem]:
-        # if collapse is None:
-        #     collapse = collapse_recursive
-
-        # if collapse and len(section.children) == 1:
-        #     return section.children[0]
-        # return section
-    
-        # if collapse is None:
-        #     if collapse_recursive and len(section.children) == 1:
-        #         return [section.children[0]]
-        #     else:
-        #         return [section]
-            
-        # elif collapse:
-        #     return section.children
-
-        # return [section]
-
 
         if collapse is None:
             collapse = collapse_recursive
